@@ -1,0 +1,15 @@
+{
+  "name": "playwright-e2e-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "report": "npx http-server ./playwright-report -p 8080 -o"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.30"
+  }
+}
